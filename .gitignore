@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Testing
+coverage/
+.pytest_cache/
+htmlcov/
+
+# Misc
+.DS_Store
+*.pem
+.turbo/
